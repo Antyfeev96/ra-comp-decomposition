@@ -1,0 +1,16 @@
+.block__weather {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.block__weather :nth-child(n + 2) {
+  margin-left: 5px;
+}
+
+.block__weather div:first-of-type {
+  font-weight: bold;
+  font-size: 24px;
+}

@@ -1,0 +1,9 @@
+.block__text {
+  margin-top: 5px;
+}
+
+.block__text :nth-child(n + 2) {
+  margin-left: 10px;
+  color: grey;
+  font-size: 12px;
+}
