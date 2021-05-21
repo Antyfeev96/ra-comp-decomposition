@@ -1,6 +1,11 @@
 .form__input-submit {
   width: 19%;
-  height: 100%;
-  border: 1px solid yellow;
-  background-color: yellow;
+  height: 30px;
+  border: 1px solid rgb(255, 94, 0);
+  background-color: rgb(255, 94, 0);
+  color: white;
+}
+
+.form__input-submit:hover {
+  cursor: pointer;
 }
