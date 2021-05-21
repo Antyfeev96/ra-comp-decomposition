@@ -1,11 +1,12 @@
 import './App.scss';
+import News from './Components/News/News';
+import Service from './Components/Service/Service';
 
-function App() {
+export default function App() {
   return (
-    <div>
-      Hello !!!
+    <div className="app">
+      <News />
+      <Service />
     </div>
   );
 }
-
-export default App;
