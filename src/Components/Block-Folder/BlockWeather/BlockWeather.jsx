@@ -10,8 +10,8 @@ function BlockWeather({ temperature }) {
       <FontAwesomeIcon icon={faCloudRain} size="3x"/>
       <div>+{temperature}°</div>
       <div>
-        Утром +{temperature}°,
-        Днём +{temperature + 3}°
+        <div>Утром +{temperature}°,</div>
+        <div>Днём +{temperature + 3}°</div>
       </div>
     </div>
   )

@@ -2,8 +2,11 @@
   margin-top: 5px;
 }
 
-.block__text :nth-child(n + 2) {
-  margin-left: 10px;
+.block__text :nth-child(n + 2)  {
+  margin-left: 5px;
+}
+
+.block__text span:last-of-type {
   color: grey;
   font-size: 12px;
 }
